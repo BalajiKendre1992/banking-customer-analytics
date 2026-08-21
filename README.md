@@ -1,54 +1,82 @@
-# Banking Customer Analytics
+# 🏦 Banking Customer Analytics
 
-A small analytics project for analyzing banking customer data to predict churn and gain insights into customer behavior.
+## End-to-End Banking Analytics Project
 
-## About
+An end-to-end banking customer analytics project using Python, Pandas, SQL, Excel and Power BI.
 
-This repository contains code and notebooks for exploring, preprocessing, and modeling banking customer datasets. Typical tasks include exploratory data analysis (EDA), feature engineering, classification modeling (e.g., predicting customer churn), and evaluating results.
+## 🎯 Project Objective
 
-## Repository structure
+This project analyzes banking customer data to understand:
 
-- data/             - raw and processed datasets (not committed)
-- notebooks/        - Jupyter notebooks for EDA and experiments
-- src/              - source code for preprocessing, models, and utilities
-- models/           - saved trained models
-- requirements.txt  - Python dependencies
-- README.md         - this file
+- Customer demographics
+- Customer segmentation
+- Account balances
+- Deposits
+- Loans
+- Credit risk
+- Branch performance
+- Digital banking adoption
+- Customer cross-selling opportunities
 
-## Getting started
+## 🛠️ Technologies Used
 
-1. Clone the repo
+- Python
+- Pandas
+- SQL
+- Power BI
+- Excel
+- DAX
+- Jupyter Notebook
 
-   git clone https://github.com/BalajiKendre1992/banking-customer-analytics.git
-   cd banking-customer-analytics
+## 📊 Power BI Dashboard
 
-2. Create a virtual environment and install dependencies
+The dashboard contains five analytical pages:
 
-   python -m venv venv
-   source venv/bin/activate   # macOS / Linux
-   venv\Scripts\activate    # Windows
-   pip install -r requirements.txt
+### 1. Executive Overview
+- Total Customers
+- Total Deposits
+- Total Loans
+- Active Customers
+- Digital Banking Adoption
+- Transaction Trends
 
-3. Place your dataset in the `data/` folder. Typical filenames used in notebooks and scripts:
-   - data/banking_data.csv
+### 2. Customer Analytics
+- Age Groups
+- Gender
+- Income Segments
+- Customer Segments
+- Account Types
+- Average Balance
 
-4. Run notebooks in `notebooks/` or run scripts from `src/`.
+### 3. Branch Performance
+- Customers by Branch
+- Deposits by Branch
+- Loans by Branch
+- Average Balance
+- Digital Banking Adoption
 
-## Typical workflow
+### 4. Loan & Risk Analytics
+- Loan Portfolio
+- Loan Types
+- Credit Score
+- Loan Amount
+- Risk Categories
 
-- Explore data in `notebooks/` using pandas and seaborn/matplotlib
-- Implement preprocessing in `src/preprocessing.py`
-- Train models in `src/train.py` and save artifacts to `models/`
-- Evaluate with `src/evaluate.py`
+### 5. Customer Opportunity
+- High-Value Customers
+- Potential Loan Customers
+- Digital Banking Opportunities
+- Cross-Selling Opportunities
 
-## Contributing
+## 📁 Project Structure
 
-Contributions are welcome. Please open issues for bugs or feature requests and submit PRs for proposed changes.
-
-## License
-
-Specify a license in LICENSE or update this section with the project's license.
-
-## Contact
-
-Maintainer: Balaji Kendre (https://github.com/BalajiKendre1992)
+```text
+Banking-Customer-Analytics/
+│
+├── README.md
+├── Python/
+├── SQL/
+├── PowerBI/
+├── Dataset/
+└── Images/
+```
